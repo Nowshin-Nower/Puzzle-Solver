@@ -1,0 +1,49 @@
+1.Python 3.x
+  The main programming language used.
+
+
+2.Standard Libraries
+   abc – For defining abstract base classes
+   typing – For type hints (List, Set, Dict, etc.)
+   tkinter – For building the GUI (comes built-in with Python)
+   random – Used for puzzle generation or shuffling
+   copy – For deep copying puzzle states during solving
+   time – For performance tracking or delays (if used)
+
+
+
+3.Third-Party Libraries
+  
+  NumPy
+   Efficient 2D grid management and numeric operations
+
+   bash
+   pip install numpy
+
+
+
+4.Testing & Development Tools
+  unittest (built-in)
+   For writing and running unit tests on puzzle logic
+
+  Pylint / Flake8 / Black (optional but recommended)
+   Code linters and formatters to ensure clean, readable code
+
+   bash
+   pip install pylint flake8 black
+
+
+
+5.Virtualenv 
+   To isolate your Python environment
+
+   bash
+   pip install virtualenv
+
+
+6.Optional (For Future Enhancements)
+If you plan to implement features like online puzzle importing, AI solvers, or visualizations, you might consider:
+
+ requests – for API calls
+ matplotlib – for plotting stats or solving time
+ pandas – for logging and tracking scores/history
